@@ -7,12 +7,12 @@ ui <- fluidPage(
   
   sidebarLayout(
     sidebarPanel(
-      actionButton("generate_button", "Generate Pie Chart")
+      actionButton("generate_button", "generate Pie Chart")
     ),
     
     mainPanel(
       plotlyOutput("pie_chart"),
-      downloadButton("download_chart", "Download Pie Chart")
+      downloadButton("download_chart", "download Pie Chart")
     )
   )
 )
